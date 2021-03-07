@@ -12,7 +12,7 @@ gitHubPages.publish(
 	siteDirectory,
 	{
 		branch: deployBranch,
-		repo: `https://${repoToken}@github.com/${GITHUB_REPOSITORY}.git`,
+		repo: `https://x-access-token:{repoToken}@github.com/${GITHUB_REPOSITORY}.git`,
 		user: {
 			name: GITHUB_ACTOR,
 			email: `${GITHUB_ACTOR}@users.noreply.github.com`
